@@ -1,0 +1,137 @@
+body {
+  background: #344;
+  padding: 25px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  padding-bottom: 1rem;
+}
+
+/* cv paper */
+.fold {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1200px;
+  width: 800px;
+  background: #fff;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  width: 40%;
+  height: 100%;
+  overflow-wrap: break-word;
+  float: left;
+  background-color: #333c5b;
+  color: white;
+}
+
+.right {
+  width: 60%;
+  height: 100%;
+  overflow-wrap: break-word;
+  float: left;
+  background-color: white;
+  color: black;
+}
+
+.left-content {
+  padding: 2rem;
+}
+
+.right-content {
+  padding: 2rem;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+.position {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.link {
+  font-size: 1rem;
+  font-weight: 200;
+  padding-bottom: 0.5rem;
+}
+
+.profile-title {
+  font-size: 1.25rem;
+  font-weight: 900;
+  padding-bottom: 0.8rem;
+}
+
+.profile-list {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.profile-detail {
+  padding-bottom: 0.8rem;
+}
+
+.edu-title {
+  font-size: small;
+}
+
+.edu-detail {
+  font-size: smaller;
+  opacity: calc(0.5);
+}
+
+.project-title {
+  font-size: medium;
+}
+
+.project-detail {
+  opacity: calc(0.5);
+}
